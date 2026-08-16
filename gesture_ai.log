@@ -2489,3 +2489,772 @@
 2026-08-15 23:14:56,637 [INFO] auth.auth_manager: User logged out: rudra
 2026-08-15 23:14:57,840 [INFO] database.db_manager: Database connection closed successfully.
 2026-08-15 23:14:57,885 [INFO] __main__: Application shutdown
+2026-08-16 15:17:46,081 [INFO] __main__: Starting Gesture AI — Hand Gesture Control System v1.0.0
+2026-08-16 15:17:46,297 [INFO] database.db_manager: Database tables verified/created successfully.
+2026-08-16 15:17:46,297 [INFO] database.db_manager: Database connection established successfully at F:\Gesture AI\gesture_ai.db
+2026-08-16 15:17:46,297 [INFO] auth.auth_manager: AuthManager initialized
+2026-08-16 15:17:46,324 [INFO] core.command_executor: Volume control initialized (pycaw)
+2026-08-16 15:17:46,324 [INFO] core.command_executor: CommandExecutor initialized: pyautogui=True, volume=True, brightness=True, screen=1920x1080
+2026-08-16 15:17:47,032 [INFO] __main__: GestureAIApp initialized
+2026-08-16 15:19:17,287 [INFO] auth.auth_manager: User logged in: rudra
+2026-08-16 15:19:17,845 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_1.joblib (5 gestures)
+2026-08-16 15:19:17,845 [INFO] core.gesture_recognizer: GestureRecognizer initialized (user_id=1, ml_model=loaded)
+2026-08-16 15:19:17,845 [INFO] training.gesture_trainer: GestureTrainer initialized for user 1
+2026-08-16 15:19:17,846 [INFO] monitoring.performance_monitor: PerformanceMonitor initialized
+2026-08-16 15:19:18,656 [INFO] core.command_executor: Custom action registered: F (press_key: F)
+2026-08-16 15:19:21,979 [INFO] core.video_capture: VideoCapture configured: camera=0, resolution=1280x720, fps=30
+2026-08-16 15:19:24,170 [INFO] core.video_capture: Camera opened: 1280x720 @ 30fps
+2026-08-16 15:19:24,190 [INFO] core.hand_detector: HandDetector initialized: max_hands=2, det_conf=0.7, track_conf=0.5
+2026-08-16 15:19:24,191 [INFO] monitoring.performance_monitor: PerformanceMonitor reset
+2026-08-16 15:19:25,940 [INFO] core.command_executor: Mouse tracking enabled
+2026-08-16 15:19:29,488 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:19:29,876 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:19:30,244 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:19:30,642 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:19:31,025 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:19:32,187 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:20:17,626 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:20:20,402 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:22:12,766 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:22:13,174 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:22:13,640 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:22:13,991 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:22:14,299 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:22:15,259 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:22:41,604 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:22:52,203 [INFO] core.command_executor: Mouse tracking disabled
+2026-08-16 15:22:53,890 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:00,433 [INFO] core.command_executor: Mouse tracking enabled
+2026-08-16 15:23:10,568 [INFO] core.command_executor: Mouse tracking disabled
+2026-08-16 15:23:12,646 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:12,794 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:12,803 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:12,807 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:12,812 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:12,815 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:12,853 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:12,857 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:12,864 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:12,870 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:12,873 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:12,911 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:12,919 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:12,923 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:12,928 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:12,933 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:12,938 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:12,970 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:12,974 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:12,981 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:12,988 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:12,994 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:12,999 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:13,034 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:13,038 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:13,046 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:13,052 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:13,279 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:13,283 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:13,324 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:13,331 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:13,335 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:13,339 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:13,343 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:13,348 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:13,353 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:13,392 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:13,400 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:13,405 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:13,410 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:13,444 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:13,451 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:13,456 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:13,460 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:13,465 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:13,498 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:13,502 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:13,506 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:13,511 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:13,519 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:13,524 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:13,561 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:13,567 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:13,574 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:13,581 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:13,585 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:13,619 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:13,624 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:13,631 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:13,638 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:13,643 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:13,649 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:13,683 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:13,687 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:13,692 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:13,701 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:13,707 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:13,747 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:13,753 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:13,757 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:13,762 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:13,767 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:13,941 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:13,985 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:13,991 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:13,998 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:14,004 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:14,053 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:14,062 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:14,068 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:14,106 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:14,114 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,121 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,128 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,135 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,175 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,239 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,245 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,250 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,255 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,262 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,306 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:14,314 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:14,323 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:14,329 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:14,365 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,371 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,377 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,385 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,433 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,437 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,442 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:14,448 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:14,490 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:14,496 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:14,502 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:14,506 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:14,512 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:14,518 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:14,564 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,569 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,572 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,581 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,622 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,626 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,631 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,637 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,641 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,647 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,652 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,689 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:14,693 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:14,699 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:14,704 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:14,710 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:14,717 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:14,754 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,810 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,813 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,817 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,821 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,824 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:14,831 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:14,836 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:14,840 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:14,882 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:14,889 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:14,895 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,901 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,907 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,954 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,965 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,969 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,973 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:14,982 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:15,019 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:15,023 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:15,028 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:15,032 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:15,039 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:15,047 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:15,087 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,147 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,151 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:15,155 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:15,159 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:15,165 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:15,169 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:15,174 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:15,216 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:15,223 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:15,231 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:15,235 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:15,282 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:15,287 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:15,294 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:15,299 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:15,304 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:15,344 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,352 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,356 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,362 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,404 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,409 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,416 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,421 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,426 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,432 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,467 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:15,473 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:15,481 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:15,485 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:15,490 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,495 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,534 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:15,647 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:15,658 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:15,663 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:15,697 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,700 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,703 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,708 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:15,716 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:15,721 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:15,758 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:15,765 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:15,771 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:15,776 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:15,782 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:15,787 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:23:15,830 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:15,835 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:15,839 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,846 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,852 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,855 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:15,891 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:16,040 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:16,071 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:16,081 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:16,085 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:16,088 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:16,093 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:16,098 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:16,104 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:16,144 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:16,149 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:16,153 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:16,156 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:16,161 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:16,165 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,170 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:16,207 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:16,216 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:16,220 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:16,225 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:16,229 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:16,233 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:16,269 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:16,274 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:16,280 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:16,284 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:16,292 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,297 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,333 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:16,338 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:16,344 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:16,351 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:16,358 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:16,392 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,397 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:16,403 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:16,546 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,551 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,554 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,558 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,563 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:16,568 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:16,572 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:16,617 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:16,621 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:16,677 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:16,681 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:16,684 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,687 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,692 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,697 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:16,702 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:16,746 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:16,750 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:16,754 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:16,759 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:16,764 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:16,809 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:16,816 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:16,819 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:16,823 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:16,827 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:16,862 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:16,912 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,918 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,924 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,930 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,935 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,940 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:16,982 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:17,201 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:17,205 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:17,211 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:23:17,215 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:17,218 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:17,223 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:17,228 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:17,231 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:17,266 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:23:19,507 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:19,587 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:19,597 [INFO] core.command_executor: Cooldown set to 350ms
+2026-08-16 15:23:19,634 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:19,639 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:19,645 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:19,649 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:19,653 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:19,657 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:19,662 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:19,701 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:19,706 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:19,713 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:19,717 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:23:19,722 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:19,727 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:23:19,769 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:20,869 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:22,805 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:24,754 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:24,856 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:24,859 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:24,863 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:24,867 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:24,873 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:24,877 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:24,882 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,918 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,924 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,928 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,932 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,940 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,944 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:24,987 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:25,609 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:25,665 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:25,670 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:25,675 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:25,680 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:25,686 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:25,693 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:25,729 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:25,734 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:25,740 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:25,746 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:25,753 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:25,760 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:25,800 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:25,808 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:23:25,814 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:23:25,822 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:23:25,827 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:23:25,876 [INFO] core.command_executor: Cooldown set to 200ms
+2026-08-16 15:23:25,882 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:25,892 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:25,898 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:25,941 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:25,946 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:25,952 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:25,960 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:25,969 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,007 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,012 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,021 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,026 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,032 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,078 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:23:26,750 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:26,917 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:27,074 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:27,230 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:27,389 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:27,551 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:27,722 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:27,925 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:28,087 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:28,288 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:28,456 [INFO] core.command_executor: Cooldown set to 100ms
+2026-08-16 15:23:28,561 [INFO] core.command_executor: Cooldown set to 150ms
+2026-08-16 15:23:28,569 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:23:28,608 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:28,613 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:28,622 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:28,630 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:28,675 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:28,684 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,691 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,698 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,740 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,746 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,752 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,759 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,763 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:28,799 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:23:30,112 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:23:33,293 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:33,349 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:33,353 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:23:33,361 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:33,369 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:33,379 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:33,410 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:23:33,415 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:33,419 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:33,423 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:23:33,427 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:33,431 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:23:33,435 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:33,440 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:23:33,479 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:33,485 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:33,489 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:33,493 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:23:33,498 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:33,501 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:33,544 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:23:33,551 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:33,556 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:33,559 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:33,564 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:33,570 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:23:33,605 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,610 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,615 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,619 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,624 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,631 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:23:33,671 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:23:33,675 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:33,680 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:23:33,686 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:33,691 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:33,696 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:23:33,736 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:33,791 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:33,796 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:23:33,801 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:33,805 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:33,808 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:33,813 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:33,818 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:23:33,852 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:33,857 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:33,869 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:33,905 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:33,987 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:23:38,663 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:24:23,072 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:24:23,730 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:24:26,089 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:24:26,151 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:24:26,157 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:24:26,163 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:24:26,195 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:24:26,202 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:24:26,208 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,219 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,228 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,271 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,278 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,283 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,289 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,295 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:24:26,966 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:24:29,660 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:24:29,666 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:24:29,673 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:24:29,692 [INFO] core.command_executor: Cooldown set to 700ms
+2026-08-16 15:24:29,735 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:24:29,742 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:24:29,746 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:24:29,751 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:24:29,758 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:24:29,763 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:24:29,803 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:24:29,810 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:24:29,816 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:24:29,824 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:24:29,829 [INFO] core.command_executor: Cooldown set to 500ms
+2026-08-16 15:24:29,868 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:24:29,875 [INFO] core.command_executor: Cooldown set to 450ms
+2026-08-16 15:24:29,881 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:24:29,890 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:25:09,699 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:27:07,515 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:28:14,340 [INFO] training.gesture_trainer: Loaded 3448 samples across 6 gestures
+2026-08-16 15:28:14,359 [INFO] training.gesture_trainer: Training set: 2758, Test set: 690
+2026-08-16 15:28:14,939 [INFO] training.gesture_trainer: RandomForest accuracy: 1.0000
+2026-08-16 15:28:15,337 [INFO] training.gesture_trainer: MLP accuracy: 0.9870
+2026-08-16 15:28:15,452 [INFO] training.gesture_trainer: Best model (RandomForest) saved to F:\Gesture AI\models\gesture_model_1.joblib
+2026-08-16 15:28:15,524 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_1.joblib (6 gestures)
+2026-08-16 15:28:58,399 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:30:53,903 [INFO] core.command_executor: Custom action registered: ha (open_url: https://www.youtube.com/watch?v=VigwcGBXKRg&list=RDVigwcGBXKRg&start_radio=1)
+2026-08-16 15:31:09,598 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:31:20,491 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:33:51,889 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:33:52,548 [INFO] core.command_executor: Mouse tracking enabled
+2026-08-16 15:34:18,308 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:34:19,605 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:34:20,088 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:34:48,565 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:36:03,266 [INFO] core.command_executor: Custom action registered: A (press_key: A)
+2026-08-16 15:36:18,472 [INFO] core.command_executor: Mouse tracking disabled
+2026-08-16 15:37:23,341 [INFO] core.command_executor: Custom action registered: AROOW (hotkey: Arrow up)
+2026-08-16 15:38:16,766 [INFO] core.command_executor: Custom action unregistered: ha
+2026-08-16 15:38:18,813 [INFO] core.command_executor: Custom action unregistered: A
+2026-08-16 15:38:20,217 [INFO] core.command_executor: Custom action unregistered: AROOW
+2026-08-16 15:38:48,380 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:38:48,468 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:38:48,478 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:38:48,485 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:38:48,497 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:38:48,560 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:38:48,580 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:48,719 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:48,734 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:48,751 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:38:48,845 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:48,859 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:48,926 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,094 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,155 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,169 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,245 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,258 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,471 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:38:49,486 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:38:49,558 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:38:49,704 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:38:49,713 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:49,720 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:49,730 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:49,800 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:49,819 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:38:49,890 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:38:49,903 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:38:49,976 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:38:49,987 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:38:50,064 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:38:50,076 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:38:50,125 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:38:50,140 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:38:50,160 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:38:50,228 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:38:50,378 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:38:50,385 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:38:50,447 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:50,938 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:50,942 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:50,964 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:51,006 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:51,022 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:38:51,261 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,298 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,355 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,359 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,377 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,415 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,440 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:51,478 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:38:59,517 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:39:53,522 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:40:01,282 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:40:01,462 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:40:01,476 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:40:01,588 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:40:01,648 [INFO] core.command_executor: Cooldown set to 400ms
+2026-08-16 15:40:01,664 [INFO] core.command_executor: Cooldown set to 300ms
+2026-08-16 15:40:01,754 [INFO] core.command_executor: Cooldown set to 250ms
+2026-08-16 15:40:01,821 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:40:01,834 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:40:01,939 [INFO] core.command_executor: Cooldown set to 50ms
+2026-08-16 15:40:11,656 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:40:11,769 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:40:11,841 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:40:11,927 [INFO] core.command_executor: Cooldown set to 1450ms
+2026-08-16 15:40:11,942 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:40:11,956 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:40:12,033 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:41:14,853 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:41:42,430 [INFO] core.video_capture: Camera released
+2026-08-16 15:41:42,480 [INFO] core.hand_detector: HandDetector closed
+2026-08-16 15:41:42,493 [INFO] auth.auth_manager: User logged out: rudra
+2026-08-16 15:42:46,982 [INFO] database.db_manager: User added: yashmit
+2026-08-16 15:42:47,022 [INFO] database.db_manager: Default mappings initialized for user 2
+2026-08-16 15:42:47,022 [INFO] auth.auth_manager: User registered successfully: yashmit (ID: 2)
+2026-08-16 15:42:55,481 [INFO] auth.auth_manager: User logged in: yashmit
+2026-08-16 15:42:56,003 [INFO] core.gesture_recognizer: GestureRecognizer initialized (user_id=2, ml_model=none)
+2026-08-16 15:42:56,009 [INFO] training.gesture_trainer: GestureTrainer initialized for user 2
+2026-08-16 15:42:56,010 [INFO] monitoring.performance_monitor: PerformanceMonitor initialized
+2026-08-16 15:43:16,354 [INFO] core.video_capture: VideoCapture configured: camera=0, resolution=1280x720, fps=30
+2026-08-16 15:43:18,600 [INFO] core.video_capture: Camera opened: 1280x720 @ 30fps
+2026-08-16 15:43:18,638 [INFO] core.hand_detector: HandDetector initialized: max_hands=2, det_conf=0.7, track_conf=0.5
+2026-08-16 15:43:18,638 [INFO] monitoring.performance_monitor: PerformanceMonitor reset
+2026-08-16 15:43:20,100 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:43:30,528 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:43:32,710 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:43:37,629 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:43:40,159 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:44:06,976 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:44:08,847 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:44:28,975 [INFO] training.gesture_trainer: Deleted 0 samples for 'Fist'
+2026-08-16 15:44:30,506 [INFO] training.gesture_trainer: Deleted 0 samples for 'Peace'
+2026-08-16 15:44:31,479 [INFO] training.gesture_trainer: Deleted 0 samples for 'Pinch'
+2026-08-16 15:44:32,406 [INFO] training.gesture_trainer: Deleted 0 samples for 'Point'
+2026-08-16 15:44:33,045 [INFO] training.gesture_trainer: Deleted 0 samples for 'Swipe Down'
+2026-08-16 15:44:33,778 [INFO] training.gesture_trainer: Deleted 0 samples for 'Swipe Left'
+2026-08-16 15:44:34,427 [INFO] training.gesture_trainer: Deleted 0 samples for 'Swipe Right'
+2026-08-16 15:44:34,903 [INFO] training.gesture_trainer: Deleted 0 samples for 'Swipe Up'
+2026-08-16 15:44:35,395 [INFO] training.gesture_trainer: Deleted 0 samples for 'Thumbs Up'
+2026-08-16 15:44:37,062 [INFO] training.gesture_trainer: Deleted 0 samples for 'Zoom Out'
+2026-08-16 15:44:58,306 [INFO] training.gesture_trainer: Loaded 100 samples across 1 gestures
+2026-08-16 15:44:58,335 [INFO] training.gesture_trainer: Training set: 80, Test set: 20
+2026-08-16 15:44:58,715 [INFO] training.gesture_trainer: RandomForest accuracy: 1.0000
+2026-08-16 15:44:58,797 [INFO] training.gesture_trainer: MLP accuracy: 1.0000
+2026-08-16 15:44:58,916 [INFO] training.gesture_trainer: Best model (RandomForest) saved to F:\Gesture AI\models\gesture_model_2.joblib
+2026-08-16 15:44:59,001 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_2.joblib (1 gestures)
+2026-08-16 15:45:05,368 [INFO] training.gesture_trainer: Deleted 0 samples for 'Zoom In'
+2026-08-16 15:45:05,398 [INFO] training.gesture_trainer: Loaded 100 samples across 1 gestures
+2026-08-16 15:45:05,401 [INFO] training.gesture_trainer: Training set: 80, Test set: 20
+2026-08-16 15:45:05,745 [INFO] training.gesture_trainer: RandomForest accuracy: 1.0000
+2026-08-16 15:45:05,783 [INFO] training.gesture_trainer: MLP accuracy: 1.0000
+2026-08-16 15:45:05,891 [INFO] training.gesture_trainer: Best model (RandomForest) saved to F:\Gesture AI\models\gesture_model_2.joblib
+2026-08-16 15:45:05,957 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_2.joblib (1 gestures)
+2026-08-16 15:49:31,430 [INFO] __main__: Starting Gesture AI — Hand Gesture Control System v1.0.0
+2026-08-16 15:49:39,727 [INFO] database.db_manager: Database tables verified/created successfully.
+2026-08-16 15:49:39,728 [INFO] database.db_manager: Database connection established successfully at F:\Gesture AI\gesture_ai.db
+2026-08-16 15:49:39,728 [INFO] auth.auth_manager: AuthManager initialized
+2026-08-16 15:49:39,780 [INFO] core.command_executor: Volume control initialized (pycaw)
+2026-08-16 15:49:39,781 [INFO] core.command_executor: CommandExecutor initialized: pyautogui=True, volume=True, brightness=True, screen=1920x1080
+2026-08-16 15:49:40,609 [INFO] __main__: GestureAIApp initialized
+2026-08-16 15:51:32,754 [INFO] auth.auth_manager: User logged in: rudra
+2026-08-16 15:51:33,321 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_1.joblib (6 gestures)
+2026-08-16 15:51:33,321 [INFO] core.gesture_recognizer: GestureRecognizer initialized (user_id=1, ml_model=loaded)
+2026-08-16 15:51:33,321 [INFO] training.gesture_trainer: GestureTrainer initialized for user 1
+2026-08-16 15:51:33,321 [INFO] monitoring.performance_monitor: PerformanceMonitor initialized
+2026-08-16 15:51:34,136 [INFO] core.command_executor: Custom action registered: F (press_key: F)
+2026-08-16 15:52:27,663 [INFO] core.command_executor: Custom action registered: Arrow up (press_key: up)
+2026-08-16 15:52:32,947 [INFO] core.video_capture: VideoCapture configured: camera=0, resolution=1280x720, fps=30
+2026-08-16 15:52:35,023 [INFO] core.video_capture: Camera opened: 1280x720 @ 30fps
+2026-08-16 15:52:35,074 [INFO] core.hand_detector: HandDetector initialized: max_hands=2, det_conf=0.7, track_conf=0.5
+2026-08-16 15:52:35,075 [INFO] monitoring.performance_monitor: PerformanceMonitor reset
+2026-08-16 15:53:17,094 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:24,543 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:24,883 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:25,344 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:25,977 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:33,281 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:33,669 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:34,047 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:34,515 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:34,893 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:35,239 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:35,633 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:35,977 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:36,353 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:36,716 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:36,934 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:53:37,049 [INFO] core.command_executor: Cooldown set to 550ms
+2026-08-16 15:53:37,055 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:53:37,059 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:53:37,063 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:53:37,068 [INFO] core.command_executor: Cooldown set to 600ms
+2026-08-16 15:53:37,075 [INFO] core.command_executor: Cooldown set to 650ms
+2026-08-16 15:53:37,116 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:53:37,121 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:53:37,127 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:53:37,133 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:53:37,137 [INFO] core.command_executor: Cooldown set to 750ms
+2026-08-16 15:53:37,141 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:53:37,176 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:37,183 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:37,194 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:53:37,223 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:53:37,252 [INFO] core.command_executor: Cooldown set to 1250ms
+2026-08-16 15:53:37,257 [INFO] core.command_executor: Cooldown set to 1300ms
+2026-08-16 15:53:37,267 [INFO] core.command_executor: Cooldown set to 1350ms
+2026-08-16 15:53:37,293 [INFO] core.command_executor: Cooldown set to 1400ms
+2026-08-16 15:53:37,322 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,328 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,334 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,338 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,347 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,354 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,405 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,413 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,440 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,475 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,527 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,533 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,539 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,543 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,550 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,555 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:37,559 [INFO] core.command_executor: Cooldown set to 1500ms
+2026-08-16 15:53:38,246 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:39,843 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:53:41,346 [INFO] core.command_executor: Recognition RESUMED
+2026-08-16 15:53:45,673 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,807 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,812 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,815 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,819 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,823 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,827 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,831 [INFO] core.command_executor: Cooldown set to 1200ms
+2026-08-16 15:53:45,835 [INFO] core.command_executor: Cooldown set to 1150ms
+2026-08-16 15:53:45,870 [INFO] core.command_executor: Cooldown set to 1100ms
+2026-08-16 15:53:45,877 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:45,882 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:45,885 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:45,934 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:45,983 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:46,057 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:46,061 [INFO] core.command_executor: Cooldown set to 1050ms
+2026-08-16 15:53:46,087 [INFO] core.command_executor: Cooldown set to 1000ms
+2026-08-16 15:53:46,095 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:53:46,099 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:53:46,103 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:53:46,109 [INFO] core.command_executor: Cooldown set to 950ms
+2026-08-16 15:53:46,114 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:53:46,147 [INFO] core.command_executor: Cooldown set to 900ms
+2026-08-16 15:53:46,175 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:46,199 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:46,210 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:46,258 [INFO] core.command_executor: Cooldown set to 850ms
+2026-08-16 15:53:49,229 [INFO] core.command_executor: Cooldown set to 800ms
+2026-08-16 15:53:52,544 [INFO] core.command_executor: Recognition PAUSED
+2026-08-16 15:56:02,114 [INFO] core.video_capture: Camera released
+2026-08-16 15:56:02,131 [INFO] core.hand_detector: HandDetector closed
+2026-08-16 15:56:02,145 [INFO] auth.auth_manager: User logged out: rudra
+2026-08-16 15:56:03,562 [INFO] database.db_manager: Database connection closed successfully.
+2026-08-16 15:56:03,615 [INFO] __main__: Application shutdown
+2026-08-16 15:56:16,656 [INFO] __main__: Starting Gesture AI — Hand Gesture Control System v1.0.0
+2026-08-16 15:56:16,750 [INFO] database.db_manager: Database tables verified/created successfully.
+2026-08-16 15:56:16,751 [INFO] database.db_manager: Database connection established successfully at F:\Gesture AI\gesture_ai.db
+2026-08-16 15:56:16,751 [INFO] auth.auth_manager: AuthManager initialized
+2026-08-16 15:56:16,786 [INFO] core.command_executor: Volume control initialized (pycaw)
+2026-08-16 15:56:16,786 [INFO] core.command_executor: CommandExecutor initialized: pyautogui=True, volume=True, brightness=True, screen=1920x1080
+2026-08-16 15:56:17,231 [INFO] __main__: GestureAIApp initialized
+2026-08-16 15:56:29,045 [INFO] auth.auth_manager: User logged in: rudra
+2026-08-16 15:56:29,631 [INFO] core.gesture_recognizer: Loaded ML model from F:\Gesture AI\models\gesture_model_1.joblib (6 gestures)
+2026-08-16 15:56:29,631 [INFO] core.gesture_recognizer: GestureRecognizer initialized (user_id=1, ml_model=loaded)
+2026-08-16 15:56:29,631 [INFO] training.gesture_trainer: GestureTrainer initialized for user 1
+2026-08-16 15:56:29,631 [INFO] monitoring.performance_monitor: PerformanceMonitor initialized
+2026-08-16 15:56:30,441 [INFO] core.command_executor: Custom action registered: Arrow up (press_key: up)
+2026-08-16 15:56:30,441 [INFO] core.command_executor: Custom action registered: F (press_key: F)

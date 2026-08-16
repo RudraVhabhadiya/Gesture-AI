@@ -650,10 +650,18 @@ class GestureAIApp(ctk.CTk):
         samples_frame.pack(fill="x", padx=10, pady=5)
         
         ctk.CTkLabel(samples_frame, text="Samples:").pack(side="left", padx=5)
-        self._train_samples_slider = ctk.CTkSlider(samples_frame, from_=30, to=200,
-                                                     number_of_steps=17, width=150)
+        self._train_samples_val_label = ctk.CTkLabel(
+            samples_frame, text="100", font=ctk.CTkFont(size=12, weight="bold"), width=35
+        )
+        self._train_samples_val_label.pack(side="right", padx=2)
+        
+        self._train_samples_slider = ctk.CTkSlider(
+            samples_frame, from_=30, to=200,
+            number_of_steps=17, width=120,
+            command=self._on_samples_slider_changed
+        )
         self._train_samples_slider.set(100)
-        self._train_samples_slider.pack(side="right", padx=5)
+        self._train_samples_slider.pack(side="right", padx=2)
         
         # Record button
         self._record_btn = ctk.CTkButton(
@@ -688,6 +696,12 @@ class GestureAIApp(ctk.CTk):
         self._gestures_list_frame.pack(fill="x", padx=10, pady=5)
         
         self._refresh_gesture_list()
+
+    def _on_samples_slider_changed(self, value):
+        """Update the sample count display label live when slider moves."""
+        val = int(value)
+        if hasattr(self, '_train_samples_val_label'):
+            self._train_samples_val_label.configure(text=str(val))
 
     def _refresh_gesture_list(self):
         """Refresh the list of trained gestures."""
